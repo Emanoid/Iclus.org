@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+    <script src="js/login.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/util1.css">
+	<link rel="stylesheet" type="text/css" href="css/main1.css">
+</head>
+<body>
+    <!--<h1>-->
+    <div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+					<span class="login100-form-title p-b-33">
+						Video Access Login
+					</span>
+					<div class="wrap-input100 rs1 validate-input" data-validate="Email is required">
+						<input class="input100" id="email" type="email" placeholder="email"/>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
+						<input class="input100" id="password" type="password" placeholder="password"/>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" onclick="signIn()" id="signIn">
+							Sign In
+						</button>
+					</div>
+			</div>
+		</div>
+    </div>
+    
+</body>
+</html>
